@@ -1,0 +1,17 @@
+<?php
+/*
+| Name Controller    : {{modelName}}Controller
+| Controller Created : {{today}}
+|
+*/
+namespace Controllers\Backend\{{directory}};
+
+use Illuminate\Http\Request;
+
+class {{modelName}}Controller 
+{
+    public function index()
+    {
+        return view('Backend.pages.{{directoryView}}.index{{modelName}}');
+    }
+}

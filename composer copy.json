@@ -1,0 +1,38 @@
+{
+    "name": "firuzex/laraex",
+    "description": "A Collections of Function & Helper",
+    "keywords": [
+        "firuzex",
+        "laraex"
+    ],
+    "homepage": "https://github.com/firuzex/laraex",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ahmad Hertanto",
+            "email": "firuze.backup@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Firuzex\\Laraex\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firuzex\\Laraex\\LaraexServiceProvider"
+            ],
+            "aliases": {
+                "Laraex": "Firuzex\\Laraex\\LaraexFacade"
+            }
+        }
+    }
+}

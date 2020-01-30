@@ -1,0 +1,13 @@
+{{-- This Blade has been automatically generated for use by Web Dev , DATE CREATED : {{today}} --}}
+@extends(\'Backend.layout.body\')
+@push(\'styles\')
+{{-- Insert your Stylesheet Here --}}
+@endpush
+
+@section(\'content\')
+{{-- Insert your Content Here --}}
+@endsection
+
+@push(\'scripts\')
+{{-- Insert your logic Javascript --}}
+@endpush
